@@ -5,7 +5,7 @@ using System.Collections;
 public class ScoreScript : MonoBehaviour
 {
 
-	private int score = 0;
+	public int score = 0;
 
 	void Start()
 	{

@@ -168,6 +168,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   treePrefab: {fileID: 7538484288021141907, guid: 7a479617b5255424dadaf8f56f81c90f, type: 3}
   movingObj: {fileID: 209092907}
+  speed: 10
+  targetScore: 10
+  speedUpCount: 0
+  addSpeed: 0
+  waitTime: 1.5
+  scoreScript: {fileID: 1188804308}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -594,6 +600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74285ad7a35bd644a8ee978418e85da5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
 --- !u!1 &1265575781
 GameObject:
   m_ObjectHideFlags: 0
